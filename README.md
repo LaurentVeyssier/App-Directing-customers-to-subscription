@@ -3,7 +3,6 @@ Design a predictive model identifying users likely to subcribe or not allowing t
 
 # Problem Statement
 
-The project uses activity log from users testing a mobile app.
 Mobile App often offers a freemium service to attract users and expects to convert to premium paid versions offering higher value services.
 How to determine which users will switch and subscribe ?
 Marketing can benefit significantly from being able to identify those who will most likely NOT switch from those that will. Indeed, this allows to focus marketing efforts on the users most likely NOT to convert as the others will anyhow. This allows to optimize the customer acquisition effort and reduce marketing / promotion expenses. It also allows to generate a ROI on the predictive tool through increased subscription.
@@ -18,6 +17,7 @@ Behavioral data (usage log) is collected when the App is used and the objective 
 
 # Behavioral data (usage log)
 
+The project uses activity log from users testing a mobile app.
 The log is composed of screens visited by the user, whether he tried premium features, the minigame available on the app, whether he liked or not the app, etc...
 The log provides the first 24hrs of the app covering the free trial.
 Additional information in the dataset is:
